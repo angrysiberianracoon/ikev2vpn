@@ -22,7 +22,6 @@
 ```Bash
 # docker run -d --restart=always --cap-add=NET_ADMIN --net=host --privileged -p 8080 -p 500:500/udp -p 4500:4500/udp --name=ikev2vpn angrysiberianracoon/ikev2vpn
 ```
-Компиляция кода сервера занимает некоторое время, дождитесь её окончания.
 
 ## Настройка
 Для осуществления настройки выполните команду:
