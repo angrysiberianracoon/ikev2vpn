@@ -20,7 +20,7 @@ With this project, you can deploy your own secure VPN server with support for cl
 Run the Docker image deployment command on the server:
 
 ```Bash
-# docker run -d --restart=always --cap-add=NET_ADMIN --net=host --privileged -p 8080 -p 500:500/udp -p 4500:4500/udp --name=ikev2vpn angrysiberianracoon/ikev2vpn
+docker run -d --restart=always --cap-add=NET_ADMIN --net=host --privileged -p 8080 -p 500:500/udp -p 4500:4500/udp --name=ikev2vpn angrysiberianracoon/ikev2vpn
 ```
 
 ## Configuration
