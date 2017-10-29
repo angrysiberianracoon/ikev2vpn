@@ -61,4 +61,4 @@ Angry Siberian Racoon
 e-mail: angrysiberianracoon@gmail.com
 
 ## Лицензия
-Copyright (c) 2017 Angry Siberian Racoon, это программное обеспечение лицензировано под [MIT License](https://github.com/angrysiberianracoon/ikev2vpn/master/LICENSE).
+Copyright (c) 2017 Angry Siberian Racoon, это программное обеспечение лицензировано под [MIT License](https://github.com/angrysiberianracoon/ikev2vpn/blob/master/LICENSE).
