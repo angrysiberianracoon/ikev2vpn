@@ -1,0 +1,28 @@
+{
+    "lang": {
+        "list": {
+            "en": "english", 
+            "ru": "русский"
+        }
+    }, 
+    "path": {
+        "cert_storage": "/etc/ipsec.d", 
+        "cert_gen_root": "/data/key_files", 
+        "web_root": "/var/www/vpn", 
+        "config_gen_root": "/data/configs"
+    }, 
+    "cert": {
+        "service_name": "Ikev2VPN", 
+        "ca_name": "Ikev2VPN_CA",
+        "country_code": "WW", 
+        "lifetime_server": 3652, 
+        "lifetime_client": 365
+    }, 
+    "clients": {
+        "active": []
+    }, 
+    "network": {
+        "web_port": 8080, 
+        "network_for_client": "10.10.10.0/24"
+    }
+}

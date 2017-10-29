@@ -1,0 +1,7 @@
+case $PLUTO_VERB in
+  up-client)
+  iptables -t nat -A POSTROUTING -s $RIGHTIP -o $RIGHTIF -m policy --dir out --pol ipsec -j ACCEPT
+  iptables -t nat -A POSTROUTING -s $RIGHTIP -o $RIGHTIF -j MASQUERADE
+  iptables -t mangle -A FORWARD --match policy --pol ipsec --dir in -s $RIGHTIP  -o $RIGHTIF -p tcp -m tcp --tcp-flags SYN,RST SYN -m tcpmss --mss 1361:1536 -j TCPMSS --set-mss 1360
+    ;;
+esac

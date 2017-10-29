@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ikev2vpn Server\n"
+"POT-Creation-Date: 2017-10-28 19:34+0500\n"
+"PO-Revision-Date: 2017-10-28 19:41+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: vpn.py\n"
+
+#: vpn.py:128
+msgid "the name must contain only letters, numbers and symbols [_ - . @]"
+msgstr "имя должно содержать только буквы, цифры и символы [_ - . @]"
+
+#: vpn.py:138
+msgid "incorrect IP address format"
+msgstr "некорректный формат IP адреса"
+
+#: vpn.py:213
+msgid ""
+"Enter the password for the client certificate\n"
+"(it will be displayed on the screen in clear view!)\n"
+"you can leave the field blank:"
+msgstr ""
+"Введите пароль для клиентского сертификата\n"
+"(он будет выведен на экран в открытом виде!)\n"
+"можно оставить это поле пустым:"
+
+#: vpn.py:354
+#, python-brace-format
+msgid "your input: [{value}]"
+msgstr "вы ввели: [{value}]"
+
+#: vpn.py:360
+msgid "continue [y] / input again [n] ?"
+msgstr "продолжить [y] / повторить ввод [n] ?"
+
+#: vpn.py:371
+msgid ", try again:"
+msgstr ", попробуйте ещё раз:"
+
+#: vpn.py:379
+msgid "download from web (not safe)"
+msgstr "скачать через WEB (не безопасно)"
+
+#: vpn.py:379
+msgid "copy / paste over screen"
+msgstr "копировать через консоль"
+
+#: vpn.py:380
+msgid "Select the method of obtaining the certificates:"
+msgstr "Выберите метод получения сертификата:"
+
+#: vpn.py:398
+msgid "Download the certificate archive at:"
+msgstr "Скачайте архив сертификатов по ссылке:"
+
+#: vpn.py:403
+msgid "If you successfully downloaded the certificates, type [y]"
+msgstr "Если вы полностью скачали сертификаты введите [y]"
+
+#: vpn.py:413
+#, python-brace-format
+msgid ""
+"Copy the text between \"---\" characters and save it as a text file named "
+"\"{file_name}\""
+msgstr ""
+"Скопируйте текст между символами \"---\"  и сохраните его с именем "
+"\"{file_name}\""
+
+#: vpn.py:429
+msgid ""
+"After creating 3 files, you need to generate a certificate PKCS#12 format"
+msgstr ""
+"После создания 3-х файлов необходимо сгенерировать сертификат формата PKCS#12"
+
+#: vpn.py:430
+#, python-brace-format
+msgid "If you are using Windows, install OpenSSL {url}"
+msgstr "Если вы используете Windows, установите OpenSSL {url}"
+
+#: vpn.py:431
+msgid ""
+"Open the console in the directory with the created files and run the command:"
+msgstr "Откройте консоль в каталоге с созданными файлами и выполните команду:"
+
+#: vpn.py:466
+msgid ""
+"Re-initialization will invalidate all previously issued certificates. "
+"Continue? [y / n]"
+msgstr ""
+"Реинициализация деактивирует все ранее выданные сертификаты. Продолжить? "
+"[y / n]"
+
+#: vpn.py:470
+msgid "Enter the public IP address of the server:"
+msgstr "Введите публичный IP адрес сервера:"
+
+#: vpn.py:495
+msgid "First run the initial setup"
+msgstr "Сначала выполните первоначальную настройку"
+
+#: vpn.py:498
+msgid "Enter the client name:"
+msgstr "Введите имя клиента:"
+
+#: vpn.py:502
+#, python-brace-format
+msgid "Client [{user}] already exist. Re-create the certificate? [y / n]"
+msgstr ""
+"Клиент [{user}] уже существует. Сгенерировать сертификат заново? [y / n]"
+
+#: vpn.py:516
+msgid "No active users"
+msgstr "Активные клиенты отсутствуют"
+
+#: vpn.py:519
+msgid "[ back ]"
+msgstr "[ назад ]"
+
+#: vpn.py:519
+msgid "Select user for ban:"
+msgstr "Выберите клиента для бана:"
+
+#: vpn.py:528
+#, python-brace-format
+msgid "Client [{user}] was banned"
+msgstr "Клиент [{user}] забанен"
+
+#: vpn.py:556
+msgid "initial setup"
+msgstr "первоначальная настройка"
+
+#: vpn.py:556
+msgid "add client"
+msgstr "добавить клиента"
+
+#: vpn.py:556
+msgid "ban client"
+msgstr "забанить клиента"
+
+#: vpn.py:556
+msgid "select language"
+msgstr ""
+
+#: vpn.py:556
+msgid "exit"
+msgstr "выход"
+
+#~ msgid "Setup complete"
+#~ msgstr "Настройка завершена"
