@@ -14,6 +14,7 @@ With this project, you can deploy your own secure VPN server with support for cl
 
 ## Prerequisites
 * Server with Docker installed and Internet access
+* External IP address for this server
 * Access the Server via ssh
 
 ## Installation
