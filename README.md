@@ -24,7 +24,7 @@ Run the Docker image deployment command on the server:
 docker run -d --restart=always --cap-add=NET_ADMIN --net=host --privileged -p 8080 -p 500:500/udp -p 4500:4500/udp --name=ikev2vpn angrysiberianracoon/ikev2vpn
 ```
 
-## Configuration
+## Server configuration
 To configure, run the command:
 ```Bash
 docker exec -it ikev2vpn python /data/bin/vpn.py
@@ -44,21 +44,21 @@ This is a safe, but difficult way to get certificates.
 You need to copy the contents of the certificates into 3 files with specific names.  
 After creating the files, you need to generate a PKCS#12 format certificate using the command that the console will give you. 
 
-### Assigning certificates
+## Assigning certificates
 
-#### ca.cer
+### ca.cer
 Root certificate.
 It must be installed on the client device in the root certificate store.
 
-#### (client_name).cer
+### (client_name).cer
 Client certificate.
 Required to specify as a client certificate in NetowrkManager (Linux) and to generate a PKCS#12 format certificate.
 
-#### (client_name).key
+### (client_name).key
 The private key is the client certificate.
 Required to specify the client certificate as the key in NetowrkManager (Linux) and to generate a PKCS#12 format certificate.
 
-#### (client_name).p12
+### (client_name).p12
 Certificate format PKCS#12.
 Used to authorize a client in Windows / Android.
 
