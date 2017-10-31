@@ -31,6 +31,9 @@ docker exec -it ikev2vpn python /data/bin/vpn.py
 ```
 The command opens the console server setup menu, through which you can perform the initial configuration, add, ban and update client certificates.
 
+### Console menu example:
+![Console menu example](./docs/screen_sample.png)
+
 ## Download certificates
 You can obtain certificates for clients in two ways:
 
